@@ -3,12 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>PetWeb</title>
   </head>
   <body>
     <div id="main">
-      <section id="section1">
+      <div id="section1">
+        <!-- Navbar -->
         <nav>
           <div class="logo">
             <img src="./images/logo.png" alt="logo" />
@@ -26,8 +31,36 @@
             </button>
           </div>
         </nav>
-      </section>
+
+        <!-- Hero section -->
+        <div class="hero">
+          <!-- content -->
+          <div class="contentBox">
+            <h2>First I wanted to be <br />a veterinarian</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
+              quod dolores voluptate vel quasi unde voluptas tempora, dolorem,
+              dolore deleniti animi consequatur accusamus. Veniam illum laborum
+              maiores qui, id incidunt.
+            </p>
+            <div class="btn">
+              <button class="btn-1">Contact us</button>
+              <button class="btn-2">Our Service</button>
+            </div>
+          </div>
+          <!-- image -->
+          <div class="imgBox">
+            <img src="./images/blackDog.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div id="section2"></div>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

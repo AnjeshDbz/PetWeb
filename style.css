@@ -35,6 +35,8 @@ body {
     background: var(--primary);
 }
 
+
+/* ------------------------NavBar Start------------- */
 #section1 nav {
     height: 10vh;
     width: 100%;
@@ -42,6 +44,7 @@ body {
     padding: 2% 5%;
     position: absolute;
     top: 0%;
+    left: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,7 +52,7 @@ body {
 
 #section1 nav .menuBar {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     list-style: none;
     font-size: 18px;
     color: var(--white);
@@ -63,6 +66,7 @@ body {
 #section1 .search {
     position: relative;
     display: flex;
+    height: 40px;
 }
 
 #section1 .searchInput {
@@ -82,4 +86,85 @@ body {
     background: var(--secondary);
     border: none;
     cursor: pointer;
+}
+
+.searchButton img {
+    width: 25px;
+}
+
+/* ------------------------NavBar End------------- */
+
+
+/* --- Hero Section start ------*/
+#section1 .hero {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+.hero .contentBox {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+}
+
+.hero .contentBox h2 {
+    font-size: 74px;
+    margin-bottom: 20px;
+}
+
+.hero .contentBox p {
+    width: 70%;
+    font-size: 18px;
+}
+
+.hero .btn {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.hero .btn button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 18px;
+}
+
+.hero .btn-1 {
+    background: var(--secondary);
+    border: 1px solid var(--secondary);
+}
+
+.hero .btn-2 {
+    background: transparent;
+    border: 2px solid var(--white);
+}
+
+.hero .imgBox {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .imgBox img {
+    margin-top: 50px;
+}
+
+
+/* --- Hero Section end ------*/
+
+
+
+
+#section2 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: var(--secondary);
 }
